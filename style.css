@@ -1,0 +1,31 @@
+body{
+    background-color: silver;
+}
+
+h1{
+    color: rgb(255,255,255);
+    background-color: lightslategray;
+}
+
+#show_sketch{
+    float: right;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+canvas{
+    border: 5px solid cornflowerblue;
+    border-radius: 20px;
+    animation-name: vikaash;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes vikaash{
+    from{box-shadow: 1px 1px 38px cornflowerblue;}
+    to{box-shadow: 1px 1px 38px cyan;}
+}
